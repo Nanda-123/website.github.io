@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    /* width: 100 */
+    background-color: rgba(0, 202, 209, 0.664);
+    position: sticky;
+    top: 0;
+    padding: 10px 20px;
+    text-align: center;
+    align-items: center;
+    /* margin-top: 30px; */
+    /* margin: 40px 150px 20px 0px; */
+    z-index: 34354;
+}
+
+
+.navbar ul li img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    left: 0;
+    top: 0;
+    padding: 4px;
+    margin-left: 30px;
+    position: absolute;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+
+    /* padding: 10px 15px; */
+    margin: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-weight: bold;
+    /* border-bottom: 2px solid white ; */
+
+}
+
+.navbar ul li a:hover{
+    /* border-bottom-color: red; */
+    color: rgb(255, 0, 0)
+}
+
+.head{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.head .image img{
+    width: 60%;
+    right: 0;
+    top: 20%;
+    position: absolute;
+    margin: 10px 0;
+}
+
+.head .text{
+    text-align: center;
+    margin: 10px 10px 50px 150px;
+}
+
+.head .text a{
+    border: 2px solid black;
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.head .text a:hover{
+    border: 2px solid black;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+.head .text h1{
+    font-size: 55px;
+    background: rgb(202, 0, 175);
+    color: white;
+    padding: 5px 40px;
+    
+    
+}
+
+.head .text h3{
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+#about{
+    justify-content: center;
+    padding-top: 55px;
+    text-align: center;
+    
+}
+
+#about h2{
+    margin-bottom: 40px;
+    font-weight: bolder;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 15px;
+    text-decoration-color: rgb(85, 173, 255);
+}
+
+/* #about h2::before{
+    content: " ";
+    position: absolute;
+    top: 121%;
+    left: 43.5%;
+    width: 200px;
+    background: red;
+    border-radius: 10px;
+    height: 2px;
+    z-index: 4534534;
+}
+
+#about h2::after{
+    content: " ";
+    position: absolute;
+    top: 120.9%;
+    left: 48%;
+    width: 50px;
+    background: rgb(0, 131, 124);
+    border-radius: 10px;
+    height: 5px;
+    z-index: 4534534;
+} */
+
+#about p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 1100px;
+    margin: auto;
+}
+
+#products{
+    padding-top: 55px;
+    text-align: center;
+}
+
+#products h2{
+    margin-bottom: 40px;
+    font-weight: bolder;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 15px;
+    text-decoration-color: rgb(255, 0, 0);
+}
+
+/* #products h2::before{
+    content: " ";
+    position: absolute;
+    top: 160%;
+    left: 43.5%;
+    width: 200px;
+    background: rgb(0, 148, 136);
+    border-radius: 10px;
+    height: 2px;
+    z-index: 4534534;
+}
+
+#products h2::after{
+    content: " ";
+    position: absolute;
+    top: 159.9%;
+    left: 48%;
+    width: 50px;
+    background: rgb(238, 255, 0);
+    border-radius: 10px;
+    height: 5px;
+    z-index: 4534534;
+} */
+
+.cards{
+    margin: 20px auto;
+    
+}
+.cards ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 100%; */
+}
+.cards ul li{
+    /* display: flex; */
+    /* margin: 10px; */
+    width: 20%;
+    padding: 10px 20px;
+    list-style: none;
+    
+}
+
+.cards ul li .indicard{
+    width: 250px;
+    height: 300px;
+    margin: 20px 0;
+}
+
+.cards ul li .indicard:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 0 15px black;
+}
+
+.cards ul li .indicard .image img{
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.cards ul li .indicard .image{
+    width: 100%;
+}
+
+.cards ul li .indicard .image h4{
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    padding-left: 10px;
+
+}
+
+.cards ul li .indicard a{
+    text-decoration: none;
+    float: right;
+    background: royalblue;
+    padding: 10px 12px;
+    color: white;
+    font-size: small;
+    margin-right: 10px;
+}
+
+#contact{
+    height: 230px;
+    background: rgb(0, 20, 39);
+    text-align: center;
+    color: white;
+}
+
+#contact h1{
+    padding: 30px 0px 10px 0;
+    color: white;
+    font-weight: lighter;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+
+#contact p{
+    margin-bottom: 40px;
+    color: pink;
+}
+
+#contact #icons a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+#contact #icons a i{
+    font-size: 25px;
+}
+
+@media screen and (max-width:1200px){
+    .head{
+        display: block;
+        height: 100vh;
+        align-items: center;
+    }
+    
+    
+    .head .image{
+        width: 117%;
+        display: flex;
+        top: 20%;
+        position: absolute;
+        transform: translateY(-50%);
+        margin: 0px -25%;
+    }
+    
+    .head .text{
+        top: 65%;
+        position: absolute;
+        text-align: center;
+        margin: 20px auto;
+    }
+    
+
+    #about h2::before{
+        top: 125%;
+        left: 29.5%;
+        width: 200px;
+    }
+    
+    #about h2::after{
+        top: 124.8%;
+        left: 45%;
+        width: 50px;
+    }
+    
+    #about p{
+        width: 95%;
+    }
+
+    #products h2::before{
+        content: " ";
+        position: absolute;
+        top: 191%;
+        left: 24.5%;
+        width: 250px;
+ 
+    }
+    
+    #products h2::after{
+        top: 190.9%;
+        left: 45%;
+        width: 50px;
+    }
+
+    .cards ul{
+        display: block;
+        /* flex-wrap: ; */
+        width: 100%;
+        justify-content: center;
+        margin: 10px 22%;
+    }
+    
+    
+}
+
+
+
