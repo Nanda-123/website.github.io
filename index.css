@@ -343,10 +343,13 @@ html{
 
     .cards ul{
         display: block;
-        /* flex-wrap: ; */
-        width: 100%;
-        justify-content: center;
-        margin: 10px 22%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+    }
+
+    .cards ul li{
+        display: block;
     }
     
     
